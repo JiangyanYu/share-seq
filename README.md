@@ -6,7 +6,7 @@ Using pipeline released by Ma et al. (https://github.com/masai1116/SHARE-seq-ali
 
 required packages:
 
-GNU parallel 20161222
+GNU parallel 20161222\n
 bcl2fastq v2.20.0.422
 fastp version 0.12.4
 zcat (gzip) 1.9
