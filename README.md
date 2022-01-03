@@ -7,7 +7,7 @@ PRETTY_NAME="Debian GNU/Linux 10 (buster)"
 
 required packages:
 
-GNU parallel 20161222 
+GNU parallel 20161222
 bcl2fastq v2.20.0.422
 fastp version 0.12.4
 zcat (gzip) 1.9
