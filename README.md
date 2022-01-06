@@ -19,7 +19,7 @@ Download and transfer gtf and index files to corresponding folders in container.
   a) use cellranger to get reference genome and gtf files (cellranger_mm10_ref_v2020-A.sh)
   b) use STAR to build reference index (499df463a285:/home/10x/mm10# STAR --runThreadN 20 --runMode genomeGenerate  --genomeFastaFiles ./fasta/genome.fa --sjdbGTFfile ./genes/genes.gtf)
 6) 
-7) 
+7) rt
   
 
 
