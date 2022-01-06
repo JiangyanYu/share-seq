@@ -1,8 +1,8 @@
 # share-seq
-Creat a Docker environment to analyze share-seq data\
+Creat a Docker environment to analyze share-seq data. Using pipeline released by Ma et al. (https://github.com/masai1116/SHARE-seq-alignment)\
 https://hub.docker.com/r/jiangyanyu/shareseq
 PRETTY_NAME="Debian GNU/Linux 10 (buster)"
-Using pipeline released by Ma et al. (https://github.com/masai1116/SHARE-seq-alignment)\
+
 
 Installed packages:
 
