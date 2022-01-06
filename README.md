@@ -12,7 +12,14 @@ GNU parallel 20161222, bcl2fastq v2.20.0.422, fastp version 0.12.4, zcat (gzip) 
 Download and transfer gtf and index files to corresponding folders in container.
 
 1) Run with bash ./xxx.sh
-2) pythonpath use python3.8 from conda (/opt/conda/bin/python), install python-Levenshtein ()
-3) pyadaptor.py, use print(xxx) instead of print xxx. otherwise syntax error
-4) string has AttributeError: module 'string' has no attribute 'maketrans'
+2) create conda python2.7 environment, install Bio, levenshtein, optparse (not working), yaml (needs pyyaml), pysam
+3) in the .sh file, activate conda py2 environment at the beginning. deactivate at the end of the script.
+4) python3.8 will give errors due to encode and decode between byte and string, dic etc
+5) STAR index files
+  a) use cellranger to get reference genome and gtf files (cellranger_mm10_ref_v2020-A.sh)
+  b) use STAR to build reference index (499df463a285:/home/10x/mm10# STAR --runThreadN 20 --runMode genomeGenerate  --genomeFastaFiles ./fasta/genome.fa --sjdbGTFfile ./genes/genes.gtf)
+6) 
+7) 
+  
+
 
