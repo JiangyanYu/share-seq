@@ -1,5 +1,5 @@
 # share-seq
-Creat a Docker environment to analyze share-seq data\n
+Creat a Docker environment to analyze share-seq data\
 https://hub.docker.com/r/jiangyanyu/shareseq
 PRETTY_NAME="Debian GNU/Linux 10 (buster)"
 
