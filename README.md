@@ -1,8 +1,7 @@
 # share-seq
 Creat a Docker environment to analyze share-seq data. Using pipeline released by Ma et al. (https://github.com/masai1116/SHARE-seq-alignment).
 
-https://hub.docker.com/r/jiangyanyu/shareseq
-
+https://hub.docker.com/r/jiangyanyu/shareseq \
 PRETTY_NAME="Debian GNU/Linux 10 (buster)"
 
 
@@ -16,7 +15,7 @@ Download and transfer gtf and index files to corresponding folders in container.
 2) create conda python2.7 environment, install Bio, levenshtein, optparse (not working), yaml (needs pyyaml), pysam
 3) in the .sh file, activate conda py2 environment at the beginning. deactivate at the end of the script.
 4) python3.8 will give errors due to encode and decode between byte and string, dic etc
-5) STAR index files
+5) STAR index files \
   a) use cellranger to get reference genome and gtf files (cellranger_mm10_ref_v2020-A.sh) \
   b) use STAR to build reference index (499df463a285:/home/10x/mm10# STAR --runThreadN 20 --runMode genomeGenerate  --genomeFastaFiles ./fasta/genome.fa --sjdbGTFfile ./genes/genes.gtf)
 6) 
