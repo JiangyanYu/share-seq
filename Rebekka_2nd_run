@@ -1,0 +1,3 @@
+cat I1, I2, R1 abd R2 from multiple lanes into one file: cat xx_L001_I1_xx xx_L002_I1_xx xx_I1_xx
+set Start=Bcl, mainly to change fastq file names, then use Fastq_Merge
+fastq files should be stored in RawDir/fastqs
